@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+
 
   html, body {
     font-family: sans-serif;
@@ -79,10 +80,20 @@
   }
 
 
+  .hero-overlay {
+    position: relative;   
+    z-index: 1;
+    top: -150px;
+    
+  }
+
 
   .hero-overlay h1 {
+
+
     font-size: 5rem;
-    
+    top: -20px;
+    position: relative;
   }
   
 

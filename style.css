@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 
@@ -56,7 +57,7 @@ html, body {
   justify-content: center;
   align-items: center;
 
-  transform: scale(1.4);
+  transform: scale(1.8);
 
 }
 .header-logo img {
@@ -84,6 +85,8 @@ html, body {
   height: 100%;
   object-fit: cover;
   z-index: -2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 
@@ -201,6 +204,10 @@ html, body {
   object-fit: cover;
   z-index: -1;
   opacity: 0.6;
+
+  margin-top: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .explore-content {
   background-color: #44344F;

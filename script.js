@@ -30,11 +30,3 @@ closePopup.addEventListener('click', () => {
 
 
 
-const bottomPanel = document.querySelector('.bottom-panel');
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 100) {
-    bottomPanel.classList.add('show');
-  } else {
-    bottomPanel.classList.remove('show');
-  }
-});
